@@ -23,9 +23,9 @@ $(document)
 ;
 
 // popup wechat qr code
-$('.wechat-qr-code-click')
+$('#wechat-qr-code-click')
   .popup({
-    popup : $('.wechat-qr-code.popup'),
+    popup : $('#wechat-qr-code'),
     on    : 'click'
   })
 ;
