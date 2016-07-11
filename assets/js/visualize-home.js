@@ -29,3 +29,13 @@ $('.wechat-qr-code-click')
     on    : 'click'
   })
 ;
+
+// copyright
+$(.copyright)
+  .html(
+   function(){
+     var date = new Date();
+     return '&copy; 2011-' +  date.getFullYear() + ' Beijing Y-English Education &amp; Technology Co., Ltd.';
+   }
+  )
+;
