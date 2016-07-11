@@ -31,7 +31,7 @@ $('.wechat-qr-code-click')
 ;
 
 // copyright
-$(.copyright)
+$('.copyright')
   .html(
    function(){
      var date = new Date();
