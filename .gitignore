@@ -4,7 +4,12 @@
 # Windows
 Thumbs.db
 
-# MySQL
+# phpMyAdmin
 irb-x/
 irb-x@
 irb-x*
+
+# Piwic
+analytics/
+analytics@
+analytics*
