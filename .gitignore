@@ -13,3 +13,8 @@ irb-x*
 analytics/
 analytics@
 analytics*
+
+# Let's Encrypt
+.well-known/
+.well-known@
+.well-known*
