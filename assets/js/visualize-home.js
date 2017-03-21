@@ -1,14 +1,14 @@
 $(document)
-  .ready(function() {
+  .ready(function () {
 
     // fix menu when passed
     $('.masthead')
       .visibility({
         once: false,
-        onBottomPassed: function() {
+        onBottomPassed: function () {
           $('.fixed.menu').transition('fade in');
         },
-        onBottomPassedReverse: function() {
+        onBottomPassedReverse: function () {
           $('.fixed.menu').transition('fade out');
         }
       })
@@ -33,7 +33,7 @@ $('#wechat-qr-code-click')
 // copyright
 $('#copyright')
   .html(
-   function(){
+   function (){
      var date = new Date();
      return '&copy; 2011-' +  date.getFullYear() + ' Beijing Y-English Education &amp; Technology Co., Ltd.';
    }
