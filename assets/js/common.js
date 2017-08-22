@@ -1,4 +1,4 @@
-// home.js
+// common.js
 
 $(document).ready(function () {
   // fix menu when passed
